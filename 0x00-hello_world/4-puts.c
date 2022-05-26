@@ -1,3 +1,4 @@
+/* This program uses puts */
 #include <stdio.h>
 #include <string.h>
 int main(void)
