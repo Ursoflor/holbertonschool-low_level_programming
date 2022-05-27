@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *  * main - entry point for program, main function
- *   * Return: 0
- *    */
+ * main - entry point for program, main function
+ * Return: 0
+ */
 int main(void)
 {
-	char ch = 'a';
+	char ch = '`';
 
 	while (ch < 'z')
 	{
@@ -15,8 +15,8 @@ int main(void)
 	if (ch == 'q')
 		continue;
 	putchar(ch);
-	putchar('\n');
 	}
+	putchar('\n');
 return (0);
 }
 
